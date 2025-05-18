@@ -5,16 +5,16 @@ Generación de Imagen Docker a partir de una Aplicación React
 El tiempo estimado para completar este procedimiento fue de 120 minutos.
 
 ### 3. Fundamentos
-Docker y Contenerización
+## Docker y Contenerización
 Docker permite encapsular aplicaciones en contenedores, garantizando un entorno consistente y aislado. La construcción de una imagen Docker para una aplicación React implica definir un Dockerfile, donde se especifican las dependencias y configuraciones necesarias para el despliegue.
 
-Creación de Imágenes en Docker
+## Creación de Imágenes en Docker
 Una imagen Docker es una plantilla inmutable que se utiliza para crear contenedores. Se construye a partir de un Dockerfile, el cual contiene instrucciones sobre la configuración de la aplicación.
 
-Backend Simulado
+## Backend Simulado
 Para que el frontend React funcione correctamente, es necesario contar con un servicio backend simulado, que actúa como API y proporciona los datos de prueba necesarios.
 
-Dockerfile
+## Dockerfile
 Un Dockerfile es un archivo de texto que contiene una serie de instrucciones que Docker sigue para construir una imagen. Estas instrucciones incluyen la definición de la imagen base, la instalación de dependencias, la copia de archivos y la configuración del entorno de ejecución. Es fundamental para la contenerización de aplicaciones, ya que permite la automatización del proceso de construcción y despliegue.
 
 ### 4. Conocimientos previos
